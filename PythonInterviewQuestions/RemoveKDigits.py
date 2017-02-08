@@ -13,6 +13,7 @@ def removekdigits(str1, k):
     else:
         flag = 0
         while k > 0:
+            flag = 0
             for i in range(0, len(str1)-1):
                 if str1[i] > str1[i+1]:
                     flag = 1
